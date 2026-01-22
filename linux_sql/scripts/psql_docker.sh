@@ -11,6 +11,7 @@ case $cmd in
 
 create)
 
+#it is to ckeck if the container already created
 if [ $container_status -eq 0 ]; then
 echo 'Container already exists'
 exit 1
