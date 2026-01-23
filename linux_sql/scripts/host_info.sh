@@ -11,20 +11,20 @@ if [ "$#" -ne 5 ]; then
   echo "Illegal number of parameters"
   exit 1
 fi
-hostname= $(hostname -f)
+
+hostname=$(hostname -f)
+lscpu_out=$(lscpu)
+
 cpu_number=$(echo "$lscpu_out" | egrep "^CPU\(s\):" | awk '{print $2}' | xargs)
 cpu_architecture=$(echo "$lscpu_out" | egrep "^Architecture:" | awk '{print $2}' | xargs)
 cpu_model=$(echo "$lscpu_out" | egrep "^Model name:" | awk -F: '{print $2}' | xargs)
-cpu_mhz=$(echo "$lscpu_out" | egrep "^CPU MHz:" | awk '{print $3}' | xargs)
+cpu_mhz=$(echo "$lscpu_out" | grep "Model name:" | cut -d'@' -f2 | awk '{print $1+0}')
 l2_cache=$(echo "$lscpu_out" | egrep "^L2 cache:" | awk '{print $3}' | sed 's/[^0-9]//g')
 total_mem=$(cat /proc/meminfo | egrep "^MemTotal:" | awk '{print $2}')
 timestamp=$(date -u '+%Y-%m-%d %H:%M:%S')
 
 # insert statement
-insert_stmt="
-	INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, total_mem, timestamp)
-	VALUES ('$hostname','$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache','$total_mem', '$timestamp')
-	ON CONFLICT (hostname) DO NOTHING;"
+insert_stmt="INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, total_mem, timestamp) VALUES ('$hostname','$cpu_number','$cpu_architecture','$cpu_model','$cpu_mhz','$l2_cache','$total_mem','$timestamp') ON CONFLICT (hostname) DO NOTHING;"
 
 # execute insert
 export PGPASSWORD=$psql_password
