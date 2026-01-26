@@ -22,7 +22,7 @@ exit 1
 fi
 
 docker volume create pgdata
-docker run -d \--name jrvs-psql \-e POSTGRES_USER=$db_username \-e POSTGRES_PASSWORD=$db_password \-v pgdata:/var/lib/postgresql/data \-p 5432:5432 \postgres:9.6-alpine
+docker run -d --name jrvs-psql -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
 
 exit $?
 ;;
