@@ -14,7 +14,7 @@ The project is implemented using Bash scripts for data collection, Docker to run
 
 ### Navigate to project directory
 ```
-cd /home/centos/dev/jarvis_data_eng_firstname/linux_sql
+cd /home/rocky/dev/jarvis_data_eng_DhwaniAgrawal/linux_sql
 ```
 ### Start PostgreSQL instance using Docker
 ```
