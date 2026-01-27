@@ -1,3 +1,4 @@
+\c host_agent;
 CREATE TABLE host_info (
     id SERIAL PRIMARY KEY,
     hostname VARCHAR(255) NOT NULL,
@@ -19,3 +20,4 @@ CREATE TABLE host_usage (
     disk_usage BIGINT NOT NULL,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
