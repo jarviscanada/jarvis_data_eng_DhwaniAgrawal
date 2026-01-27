@@ -10,15 +10,14 @@ container_status=$?
 case $cmd in
 
 create)
-
 #it is to ckeck if the container already created
 if [ $container_status -eq 0 ]; then
-echo 'Container already exists'
-exit 1
+  echo 'Container already exists'
+  exit 1
 fi
-f [ $# -ne 3 ]; then
-echo 'Create requires username and password'
-exit 1
+if [ $# -ne 3 ]; then
+  echo 'Create requires username and password'
+  exit 1
 fi
 
 docker volume create pgdata
@@ -29,8 +28,8 @@ exit $?
 start|stop)
 
 if [ $container_status -ne 0 ]; then
-echo "Container jrvs-psql has not been created"
-exit 1
+  echo "Container jrvs-psql has not been created"
+  exit 1
 fi
 
 docker container $cmd jrvs-psql
