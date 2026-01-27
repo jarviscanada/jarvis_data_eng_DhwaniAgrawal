@@ -1,4 +1,6 @@
 -- Create host_info table (hardware specifications)
+\c host_agent;
+
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info
 (
     id               SERIAL NOT NULL,
