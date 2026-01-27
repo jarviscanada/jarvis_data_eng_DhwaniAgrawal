@@ -21,10 +21,7 @@ if [ $# -ne 3 ]; then
 fi
 
 docker volume create pgdata
-<<<<<<< HEAD
-=======
 
->>>>>>> a249838 (updated docker file)
 docker run -d --name jrvs-psql -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
 
 exit $?
