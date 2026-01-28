@@ -38,5 +38,11 @@ VALUES ($host_id, '$timestamp', $memory_free, $cpu_idle, $cpu_kernel, $disk_io, 
 export PGPASSWORD=$psql_password
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 
+if [ $? -eq 0 ]; then
+  echo "$(date): host_usage data inserted successfully" >> /tmp/host_usage.log
+else
+  echo "$(date): ERROR inserting host_usage data" >> /tmp/host_usage.log
+fi
+
 exit $?
 
