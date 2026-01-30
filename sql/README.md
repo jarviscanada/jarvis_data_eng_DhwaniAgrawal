@@ -1,4 +1,22 @@
 
+# SQL Project: Country Club
+
+## Table Setup (DDL)
+
+The following tables were created in PostgreSQL for the Country Club project.  
+All tables include **primary keys, foreign keys, and constraints** to maintain data integrity.  
+Foreign key relationships are named explicitly for clarity and maintainability.
+
+---
+
+### 1?? Table: members
+
+```sql
+-- ============================================
+-- Table: members
+-- ============================================
+
+
 CREATE TABLE cd.members
 ( 
     memid INTEGER NOT NULL PRIMARY KEY,
@@ -14,6 +32,9 @@ CREATE TABLE cd.members
     joindate TIMESTAMP NOT NULL
 );
     
+-- ============================================
+-- Table: facilities
+-- ============================================
 
 
 CREATE TABLE cd.facilities
@@ -26,6 +47,9 @@ CREATE TABLE cd.facilities
     monthlymaintenance NUMERIC NOT NULL
 );
 
+-- ============================================
+-- Table: bookings
+-- ============================================
 
 CREATE TABLE cd.bookings
 (
