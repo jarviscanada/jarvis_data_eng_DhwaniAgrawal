@@ -42,7 +42,7 @@ The architecture of this project follows a simple analytics pipeline:
 
 ### Data Analytics and Wrangling
 **Jupyter Notebook:**  
-[Retail Data Analytics & Wrangling Notebook](./python_data_wrangling
+[Retail Data Analytics & Wrangling Notebook](python_data_wrangling
 /retail_data_analytics_wrangling.ipynb)
 
 In the notebook, the following steps were performed:
