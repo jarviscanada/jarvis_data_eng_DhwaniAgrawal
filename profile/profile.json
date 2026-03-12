@@ -35,6 +35,11 @@
       "description": " Designed and developed a Linux-based resource monitoring system usingn Rocky Linux, Bash scripting, crontab, Docker, and PostgreSQL. Collected CPU, memory, and disk usage data from multiple hosts and stored it in an RDBMS for data analytics and reporting. Implemented automated data collection using shell scripts and scheduled jobs, and containerized the application using Docker to ensure consistent deployment and portability.",
       "git_url": "jarvis_data_eng_DhwaniAgrawal/linux_sql",
       "name": "Linux Cluster Monitoring Sytem"
+    },
+    {
+      "description": "Developed a data analytics proof of concept by performing data cleaning, transformation, and exploratory analysis on raw datasets using Python with Pandas and NumPy. Structured and prepared datasets to support analytical insights and reporting use cases. Conducted interactive analysis and experimentation using Jupyter Notebook to explore patterns and validate data assumptions. Implemented the project within a Docker-based environment to ensure reproducible workflows and consistent development setups. Managed project code, version control, and collaboration using Git and GitHub.",
+      "git_url": "jarvis_data_eng_DhwaniAgrawal/python_data_analytics",
+      "name": "Data Analytics Proof of Concept"
     }
   ],
   "name": "Dhwani Agrawal",
@@ -49,7 +54,7 @@
     {
       "bullets": [
         "Volunteer: Sustainability CFT at MG Motor",
-        "Volunteer: Bachhpan NGO (Educating Underprivilaged Kids)"
+        "Volunteer: Bachhpan NGO (Educating Underprivileged Kids)"
       ],
       "title": "Activities/Volunteering"
     }
@@ -57,39 +62,41 @@
   "professional_experience": [
     {
       "company": "Jarvis Consulting",
-      "description": "Developed hands-on data engineering solutions using Linux, Bash, SQL,PostgreSQL, and Docker. Built a system monitoring application to collect and analyze server performance data. Worked with Git-based workflows, followed structured SDLC practices, and wrote documentation to support maintainability and collaboration.",
-      "duration": "Jan 2025-present",
+      "description": "Gather and document functional and non-functional requirements for analytics and infrastructure monitoring solutions while collaborating with stakeholders and development teams to analyze system workflows and translate business needs into technical specifications. Support solution design, documentation, and implementation activities, and assist in system analysis, data validation, and reporting processes to ensure accurate and reliable business insights. Developed Power BI dashboards for e-commerce clients to visualize sales and operational data, enabling data-driven insights and decision-making. Contribute to technical projects involving Linux systems, Python-based analytics, and cloud development environments while maintaining project documentation, including process diagrams, requirements specifications, and solution design artifacts. ",
+      "duration": "Jan 2026-present",
       "title": "Business System Analyst"
     },
     {
       "company": "MG Motor India Pvt Ltd",
-      "description": "Acted as a bridge between finance and IT teams by gathering business requirements and translating them into technical solutions. Built and maintained SQL queries for financial reporting and data reconciliation. Supported system enhancements, automated manual processes, and improved reporting accuracy while collaborating with multiple stakeholders.",
-      "duration": "2019",
+      "description": "Supported finance operations and enterprise systems for procurement, budgeting, and financial reporting by collaborating with Finance stakeholders and IT teams to translate business requirements into technical solutions. Developed SQL queries for financial reporting, reconciled data between SAP ERP and internal databases, and supported SDLC activities including requirement analysis, UAT, and deployment. Automated reporting workflows using Power BI and advanced Excel (VLOOKUP, PivotTables, Macros), built shell scripts for data refresh and monitoring, and conducted data validation to support operational reporting and internal audits.",
+      "duration": "Aug 2020 - Nov 2023",
       "title": "Business Systems Analyst : IT (Finance Systems)"
     }
   ],
   "skills": {
     "competent": [
       "Docker",
-      "python",
+      "Python(Pandas, NumPy)",
       "Shell scripting",
       "Data Modeling",
-      "Agile/Scrum"
+      "Jupyter Notebook"
     ],
     "familiar": [
       "Azure",
-      "Power BI",
+      "SDLC Documentation",
       "Tableau",
       "SAP",
       "Microsoft excel",
       "Sharepoint"
     ],
     "proficient": [
-      "Data analysis",
-      "Linux/Bash",
-      "RDBMS/SQL",
+      "Requirement Gathering",
+      "Functional and Non-Functional Specs",
+      "Process Analysis",
       "Agile/Scrum",
-      "Git"
+      "Stakeholder Communication",
+      "RDBMS/SQL",
+      "Power BI"
     ]
   },
   "summary": "I am a detail-oriented business and data professional with over three years of experience working closely with IT and business teams in a manufacturing environment. I enjoy understanding how systems work and solving problems by turning business requirements into practical technical solutions. I have hands-on experience with SQL, Linux, shell scripting, and data analysis. During my time at Jarvis Consulting, I worked on real-world data engineering projects, including building a Linux-based system monitoring application using Bash, PostgreSQL, and Docker. I am genuinely interested in data, automation, and improving systems, and I am currently looking for entry-level Data Engineer, Data Analyst, or Systems Analyst roles where I can keep learning and make a meaningful contribution."
