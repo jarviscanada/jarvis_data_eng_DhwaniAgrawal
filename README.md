@@ -4,11 +4,19 @@ I am a detail-oriented business and data professional with over three years of e
 
 ## Skills
 
+<<<<<<< HEAD
 **Proficient:** Data analysis, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
 **Competent:** Docker, python, Shell scripting, Data Modeling, Agile/Scrum
 
 **Familiar:** Azure, Power BI, Tableau, SAP, Microsoft excel, Sharepoint
+=======
+**Proficient:** Requirement Gathering, Functional and Non-Functional Specs, Process Analysis, Agile/Scrum, Stakeholder Communication, RDBMS/SQL, Power BI
+
+**Competent:** Docker, Python(Pandas, NumPy), Shell scripting, Data Modeling, Jupyter Notebook
+
+**Familiar:** Azure, SDLC Documentation, Tableau, SAP, Microsoft excel, Sharepoint
+>>>>>>> feature/profile
 
 ## Jarvis Projects
 
@@ -17,6 +25,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgra
 
 **Linux Cluster Monitoring Sytem** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/linux_sql)]:  Designed and developed a Linux-based resource monitoring system usingn Rocky Linux, Bash scripting, crontab, Docker, and PostgreSQL. Collected CPU, memory, and disk usage data from multiple hosts and stored it in an RDBMS for data analytics and reporting. Implemented automated data collection using shell scripts and scheduled jobs, and containerized the application using Docker to ensure consistent deployment and portability.
 
+<<<<<<< HEAD
+=======
+**Data Analytics Proof of Concept** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/python_data_analytics)]: Developed a data analytics proof of concept by performing data cleaning, transformation, and exploratory analysis on raw datasets using Python with Pandas and NumPy. Structured and prepared datasets to support analytical insights and reporting use cases. Conducted interactive analysis and experimentation using Jupyter Notebook to explore patterns and validate data assumptions. Implemented the project within a Docker-based environment to ensure reproducible workflows and consistent development setups. Managed project code, version control, and collaboration using Git and GitHub.
+
+>>>>>>> feature/profile
 
 ## Highlighted Projects
 **FormsConnect** [[GitHub]( )]:  Developed a web-based solution to centralize access to organizational forms for a school board. Implemented search, filtering, and metadata tagging to improve usability and reduce support requests. Ensured the application followed accessibility standards and supported secure authentication. Collaborated with stakeholders to gather requirements, conduct testing, and improve the overall user experience.
@@ -24,9 +37,15 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgra
 
 ## Professional Experiences
 
+<<<<<<< HEAD
 **Business System Analyst, Jarvis Consulting (Jan 2025-present)**: Developed hands-on data engineering solutions using Linux, Bash, SQL,PostgreSQL, and Docker. Built a system monitoring application to collect and analyze server performance data. Worked with Git-based workflows, followed structured SDLC practices, and wrote documentation to support maintainability and collaboration.
 
 **Business Systems Analyst : IT (Finance Systems), MG Motor India Pvt Ltd (2019)**: Acted as a bridge between finance and IT teams by gathering business requirements and translating them into technical solutions. Built and maintained SQL queries for financial reporting and data reconciliation. Supported system enhancements, automated manual processes, and improved reporting accuracy while collaborating with multiple stakeholders.
+=======
+**Business System Analyst, Jarvis Consulting (Jan 2026-present)**: Gather and document functional and non-functional requirements for analytics and infrastructure monitoring solutions while collaborating with stakeholders and development teams to analyze system workflows and translate business needs into technical specifications. Support solution design, documentation, and implementation activities, and assist in system analysis, data validation, and reporting processes to ensure accurate and reliable business insights. Developed Power BI dashboards for e-commerce clients to visualize sales and operational data, enabling data-driven insights and decision-making. Contribute to technical projects involving Linux systems, Python-based analytics, and cloud development environments while maintaining project documentation, including process diagrams, requirements specifications, and solution design artifacts. 
+
+**Business Systems Analyst : IT (Finance Systems), MG Motor India Pvt Ltd (Aug 2020 - Nov 2023)**: Supported finance operations and enterprise systems for procurement, budgeting, and financial reporting by collaborating with Finance stakeholders and IT teams to translate business requirements into technical solutions. Developed SQL queries for financial reporting, reconciled data between SAP ERP and internal databases, and supported SDLC activities including requirement analysis, UAT, and deployment. Automated reporting workflows using Power BI and advanced Excel (VLOOKUP, PivotTables, Macros), built shell scripts for data refresh and monitoring, and conducted data validation to support operational reporting and internal audits.
+>>>>>>> feature/profile
 
 
 ## Education
@@ -44,4 +63,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgra
 - Google Data Analytics
 - Microsoft Azure Fundamentals (DP-900)
 - Volunteer: Sustainability CFT at MG Motor
+<<<<<<< HEAD
 - Volunteer: Bachhpan NGO (Educating Underprivilaged Kids)
+=======
+- Volunteer: Bachhpan NGO (Educating Underprivileged Kids)
+>>>>>>> feature/profile
