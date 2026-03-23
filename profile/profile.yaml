@@ -46,7 +46,11 @@ jarvis_projects:
   - name: "Data Analytics Proof of Concept"
     git_url: "jarvis_data_eng_DhwaniAgrawal/python_data_analytics"
     description: "Developed a data analytics proof of concept by performing data cleaning, transformation, and exploratory analysis on raw datasets using Python with Pandas and NumPy. Structured and prepared datasets to support analytical insights and reporting use cases. Conducted interactive analysis and experimentation using Jupyter Notebook to explore patterns and validate data assumptions. Implemented the project within a Docker-based environment to ensure reproducible workflows and consistent development setups. Managed project code, version control, and collaboration using Git and GitHub."
-# List of personal or academic projects
+  - name: "Real time Stock Analytics Dashboard"
+    git_url: "jarvis_data_eng_DhwaniAgrawal/power_bi/dashboard"
+    description: "Developed a stock analytics dashboard in Power BI by integrating financial data from Alpha Vantage using REST APIs. Built end-to-end data pipelines in Power Query (M language) to extract, parse, and transform both JSON and CSV responses, including handling schema inconsistencies and null values. Engineered reusable and parameterized queries to dynamically support multiple stock tickers. Designed advanced DAX measures using CALCULATE, FILTER, and time intelligence functions to compute key financial metrics such as 52-week high/low, market capitalization, and analyst estimates. Created interactive and visually rich dashboards with combined line and column charts for price and volume analysis, along with KPI cards and earnings comparisons. Implemented slicers and dynamic measures to enable user-driven time-based filtering, delivering a scalable and responsive business intelligence solution for financial data analysis."
+
+      # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
