@@ -4,12 +4,11 @@ I am a detail-oriented business and data professional with over three years of e
 
 ## Skills
 
-**Proficient:** Requirement Gathering, Functional and Non-Functional Specs, Process Analysis, Agile/Scrum, Stakeholder Communication, RDBMS/SQL, Power BI
+**Proficient:** Requirement Gathering, Functional and Non-Functional Specs, Process Analysis, Agile/Scrum, Stakeholder Communication, RDBMS/SQL, Power BI, Project Management, Cross-functional team collaboration
 
 **Competent:** Docker, Python(Pandas, NumPy), Shell scripting, Data Modeling, Jupyter Notebook
 
 **Familiar:** Azure, SDLC Documentation, Tableau, SAP, Microsoft excel, Sharepoint
-
 
 ## Jarvis Projects
 
@@ -18,22 +17,22 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgra
 
 **Linux Cluster Monitoring Sytem** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/linux_sql)]:  Designed and developed a Linux-based resource monitoring system usingn Rocky Linux, Bash scripting, crontab, Docker, and PostgreSQL. Collected CPU, memory, and disk usage data from multiple hosts and stored it in an RDBMS for data analytics and reporting. Implemented automated data collection using shell scripts and scheduled jobs, and containerized the application using Docker to ensure consistent deployment and portability.
 
-
 **Data Analytics Proof of Concept** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/python_data_analytics)]: Developed a data analytics proof of concept by performing data cleaning, transformation, and exploratory analysis on raw datasets using Python with Pandas and NumPy. Structured and prepared datasets to support analytical insights and reporting use cases. Conducted interactive analysis and experimentation using Jupyter Notebook to explore patterns and validate data assumptions. Implemented the project within a Docker-based environment to ensure reproducible workflows and consistent development setups. Managed project code, version control, and collaboration using Git and GitHub.
 
+**Real time Stock Analytics Dashboard** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/power_bi/dashboard)]: Developed a stock analytics dashboard in Power BI by integrating financial data from Alpha Vantage using REST APIs. Built end-to-end data pipelines in Power Query (M language) to extract, parse, and transform both JSON and CSV responses, including handling schema inconsistencies and null values. Engineered reusable and parameterized queries to dynamically support multiple stock tickers. Designed advanced DAX measures using CALCULATE, FILTER, and time intelligence functions to compute key financial metrics such as 52-week high/low, market capitalization, and analyst estimates. Created interactive and visually rich dashboards with combined line and column charts for price and volume analysis, along with KPI cards and earnings comparisons. Implemented slicers and dynamic measures to enable user-driven time-based filtering, delivering a scalable and responsive business intelligence solution for financial data analysis.
+
+**Credit Limit Optimization Analysis Project** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal/tree/masterjarvis_data_eng_DhwaniAgrawal/)]:  Developed a data-driven credit limit optimization framework to assess customer spending behaviour and evaluate whether assigned credit limits were aligned with actual utilization patterns. The project involved analysing transaction, card, and customer datasets to segment users into low, moderate, and high utilization categories, enabling targeted and behaviour-based credit allocation strategies. Identified significant underutilized credit exposure across the portfolio and proposed optimization opportunities to reduce idle capital, improve lending efficiency, and minimize unnecessary risk. Delivered strategic business recommendations focused on dynamic credit limit adjustment, high-value customer expansion, segment-based credit policies, and smarter capital allocation using Python-based analytics and interactive Power BI dashboards. 
 
 
 ## Highlighted Projects
 **FormsConnect** [[GitHub]( )]:  Developed a web-based solution to centralize access to organizational forms for a school board. Implemented search, filtering, and metadata tagging to improve usability and reduce support requests. Ensured the application followed accessibility standards and supported secure authentication. Collaborated with stakeholders to gather requirements, conduct testing, and improve the overall user experience.
 
 
-## Professional Experience
-
+## Professional Experiences
 
 **Business System Analyst, Jarvis Consulting (Jan 2026-present)**: Gather and document functional and non-functional requirements for analytics and infrastructure monitoring solutions while collaborating with stakeholders and development teams to analyze system workflows and translate business needs into technical specifications. Support solution design, documentation, and implementation activities, and assist in system analysis, data validation, and reporting processes to ensure accurate and reliable business insights. Developed Power BI dashboards for e-commerce clients to visualize sales and operational data, enabling data-driven insights and decision-making. Contribute to technical projects involving Linux systems, Python-based analytics, and cloud development environments while maintaining project documentation, including process diagrams, requirements specifications, and solution design artifacts. 
 
 **Business Systems Analyst : IT (Finance Systems), MG Motor India Pvt Ltd (Aug 2020 - Nov 2023)**: Supported finance operations and enterprise systems for procurement, budgeting, and financial reporting by collaborating with Finance stakeholders and IT teams to translate business requirements into technical solutions. Developed SQL queries for financial reporting, reconciled data between SAP ERP and internal databases, and supported SDLC activities including requirement analysis, UAT, and deployment. Automated reporting workflows using Power BI and advanced Excel (VLOOKUP, PivotTables, Macros), built shell scripts for data refresh and monitoring, and conducted data validation to support operational reporting and internal audits.
-
 
 
 ## Education
@@ -51,5 +50,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgra
 - Google Data Analytics
 - Microsoft Azure Fundamentals (DP-900)
 - Volunteer: Sustainability CFT at MG Motor
-- Volunteer: Bachhpan NGO (Educating Underprivilaged Kids)
-
+- Volunteer: Bachhpan NGO (Educating Underprivileged Kids)

@@ -7,8 +7,15 @@
 .local/
 .npm/
 
+
 # Jupyter files
 *.ipynb_checkpoints
 
 # OS files
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac
 .DS_Store
