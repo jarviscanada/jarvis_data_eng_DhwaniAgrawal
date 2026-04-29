@@ -1,10 +1,9 @@
-# Preferred name (Characters only)
 name: "Dhwani Agrawal"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_DhwaniAgrawal
 
 # Introduce yourself, your academic and professional background.
-summary: I am a detail-oriented business and data professional with over three years of experience working closely with IT and business teams in a manufacturing environment. I enjoy understanding how systems work and solving problems by turning business requirements into practical technical solutions. I have hands-on experience with SQL, Linux, shell scripting, and data analysis. During my time at Jarvis Consulting, I worked on real-world data engineering projects, including building a Linux-based system monitoring application using Bash, PostgreSQL, and Docker. I am genuinely interested in data, automation, and improving systems, and I am currently looking for entry-level Data Engineer, Data Analyst, or Systems Analyst roles where I can keep learning and make a meaningful contribution.
+summary: " I am a detail-oriented business and data professional with over three years of experience working closely with IT and business teams in a manufacturing environment. I enjoy understanding how systems work and solving problems by turning business requirements into practical technical solutions. I have hands-on experience with SQL, Linux, shell scripting, and data analysis. During my time at Jarvis Consulting, I worked on real-world data engineering projects, including building a Linux-based system monitoring application using Bash, PostgreSQL, and Docker. I am genuinely interested in data, automation, and improving systems, and I am currently looking for entry-level Data Engineer, Data Analyst, or Systems Analyst roles where I can keep learning and make a meaningful contribution."
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -19,6 +18,9 @@ skills:
     - RDBMS/SQL
     - Power BI
     - Project Management
+    - Tableau
+    - Business Data Interpretation
+    - Interactive Dashboard design
     - Cross-functional team collaboration
  
   # At least 5 skills
@@ -35,6 +37,7 @@ skills:
     - SDLC Documentation
     - Tableau
     - SAP
+    - PySpark
     - Microsoft excel
     - Sharepoint
 
@@ -52,6 +55,12 @@ jarvis_projects:
   - name: "Credit Limit Optimization Analysis Project"
     git_url: "jarvis_data_eng_DhwaniAgrawal/"
     description: " Developed a data-driven credit limit optimization framework to assess customer spending behaviour and evaluate whether assigned credit limits were aligned with actual utilization patterns. The project involved analysing transaction, card, and customer datasets to segment users into low, moderate, and high utilization categories, enabling targeted and behaviour-based credit allocation strategies. Identified significant underutilized credit exposure across the portfolio and proposed optimization opportunities to reduce idle capital, improve lending efficiency, and minimize unnecessary risk. Delivered strategic business recommendations focused on dynamic credit limit adjustment, high-value customer expansion, segment-based credit policies, and smarter capital allocation using Python-based analytics and interactive Power BI dashboards. "
+  - name: "Data Processing & Analysis using Spark and Databricks"
+    git_url: "jarvis_data_eng_DhwaniAgrawal/"
+    description: " Worked on a data project using Spark and Databricks where I extracted data from files, APIs, and databases, and transformed it using joins, filters, and aggregations. Learned how to store and optimize data using Parquet and partitioning, and ensured the results matched business requirements. This project helped me understand how to work with large data and turn it into meaningful insights."
+  - name: "Beverage Sales Performance Dashboard (Tableau)"
+    git_url: "jarvis_data_eng_DhwaniAgrawal/"
+    description: "Developed an interactive Tableau dashboard to analyze Coca-Cola sales data and evaluate overall business performance. Designed KPI metrics including total sales, operating profit, profit margin, and identification of the top profit-generating beverage brand. Built visualizations to assess regional performance, track monthly sales trends, and highlight top-performing products. Implemented filters and dashboard actions to enable dynamic user interaction and deeper data exploration. Focused on delivering a clean, structured layout to present insights effectively and support data-driven decision-making."
       # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
@@ -72,8 +81,8 @@ professional_experience:
     duration: "Jan 2026-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Gather and document functional and non-functional requirements for analytics and infrastructure monitoring solutions while collaborating with stakeholders and development teams to analyze system workflows and translate business needs into technical specifications. Support solution design, documentation, and implementation activities, and assist in system analysis, data validation, and reporting processes to ensure accurate and reliable business insights. Developed Power BI dashboards for e-commerce clients to visualize sales and operational data, enabling data-driven insights and decision-making. Contribute to technical projects involving Linux systems, Python-based analytics, and cloud development environments while maintaining project documentation, including process diagrams, requirements specifications, and solution design artifacts. "
-  - title: "Business Systems Analyst : IT (Finance Systems)"
-    company: "MG Motor India Pvt Ltd"
+  - title: "Business System Analyst - Finance"
+    company: "MG Motor India Pvt Ltd."
     duration: "Aug 2020 - Nov 2023"
     description: "Supported finance operations and enterprise systems for procurement, budgeting, and financial reporting by collaborating with Finance stakeholders and IT teams to translate business requirements into technical solutions. Developed SQL queries for financial reporting, reconciled data between SAP ERP and internal databases, and supported SDLC activities including requirement analysis, UAT, and deployment. Automated reporting workflows using Power BI and advanced Excel (VLOOKUP, PivotTables, Macros), built shell scripts for data refresh and monitoring, and conducted data validation to support operational reporting and internal audits."
 
