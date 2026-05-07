@@ -42,6 +42,16 @@
       "name": "Data Analytics Proof of Concept"
     },
     {
+      "description": "Worked on a Business Systems Analysis project focused on turning complex product ideas into clear business requirements and realistic solution plans. Gathered and analyzed requirements to better understand business needs, identify project scope, and separate technical limitations from actual business goals. The project also involved simulated stakeholder discussions where assumptions, dependencies, and clarifications were documented to improve requirement accuracy and avoid scope gaps. Created BRD and SRD-style documentation that clearly explained workflows, system expectations, and business processes in a way that was easy for both technical and non-technical stakeholders to understand.",
+      "git_url": "jarvis_data_eng_DhwaniAgrawal/BSA_fundamentals",
+      "name": "BSA Fundamentals"
+    },
+    {
+      "description": "Built an interactive Power BI dashboard using survey data from data professionals around the world to better understand industry trends, salary patterns, programming preferences, and overall job satisfaction. Worked with raw survey data to clean, organize, and visualize meaningful insights through charts, KPIs, gauges, and treemaps. The dashboard helped compare salaries across different roles, analyze country-wise demographics, and identify popular programming languages among professionals. Focused on creating a clear and user-friendly dashboard that supports better understanding of trends in the data industry through interactive and data-driven reporting.",
+      "git_url": "jarvis_data_eng_DhwaniAgrawal/power_bi/dashboard",
+      "name": "Data Professional Survey Dashboard (Power BI)"
+    },
+    {
       "description": "Developed a stock analytics dashboard in Power BI by integrating financial data from Alpha Vantage using REST APIs. Built end-to-end data pipelines in Power Query (M language) to extract, parse, and transform both JSON and CSV responses, including handling schema inconsistencies and null values. Engineered reusable and parameterized queries to dynamically support multiple stock tickers. Designed advanced DAX measures using CALCULATE, FILTER, and time intelligence functions to compute key financial metrics such as 52-week high/low, market capitalization, and analyst estimates. Created interactive and visually rich dashboards with combined line and column charts for price and volume analysis, along with KPI cards and earnings comparisons. Implemented slicers and dynamic measures to enable user-driven time-based filtering, delivering a scalable and responsive business intelligence solution for financial data analysis.",
       "git_url": "jarvis_data_eng_DhwaniAgrawal/power_bi/dashboard",
       "name": "Real time Stock Analytics Dashboard"
@@ -125,5 +135,5 @@
       "Cross-functional team collaboration"
     ]
   },
-  "summary": " I am a detail-oriented business and data professional with over three years of experience working closely with IT and business teams in a manufacturing environment. I enjoy understanding how systems work and solving problems by turning business requirements into practical technical solutions. I have hands-on experience with SQL, Linux, shell scripting, and data analysis. During my time at Jarvis Consulting, I worked on real-world data engineering projects, including building a Linux-based system monitoring application using Bash, PostgreSQL, and Docker. I am genuinely interested in data, automation, and improving systems, and I am currently looking for entry-level Data Engineer, Data Analyst, or Systems Analyst roles where I can keep learning and make a meaningful contribution."
+  "summary": " I am a detail-oriented business and data professional with over three years of experience working closely with IT and business teams in a manufacturing environment. I enjoy understanding how systems work and solving problems by turning business requirements into practical technical solutions. I have hands-on experience with SQL, Linux, shell scripting, and data analysis. During my time at Jarvis Consulting, I worked on real-world data engineering projects, including building a Linux-based system monitoring application using Bash, PostgreSQL, and Docker. I am genuinely interested in data, automation, and improving systems, and I am currently looking for entry-level Data Engineer or Systems Analyst roles where I can keep learning and make a meaningful contribution."
 }
